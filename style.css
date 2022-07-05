@@ -64,6 +64,7 @@ body{
 .recipe-div{
     margin-left: 3%;
     margin-right: 3%;
+    width:300px;
     
 }
 .recipe-padding{
@@ -76,10 +77,24 @@ body{
 
 }
 .recipe-div img{
-    width:90%;
+    width:400px;
     padding:5%;
 
 }
-
-
-
+.follows{
+    display: flex;
+    padding-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 100px ;
+    margin-left: 10%;
+    margin-right:10% ;
+    box-shadow: 5px 5px 15px gray;
+    border-radius: 15px;
+    height: 150px;
+    
+}
+.follow-num{
+    text-align: center;
+    margin:5% 5%;
+    margin-left: 10%;
+}
